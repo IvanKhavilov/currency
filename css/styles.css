@@ -1,0 +1,17 @@
+.converter {
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 22px;
+  text-align: center;
+  color: blue;
+}
+table, .content {
+  margin-left: auto;
+  margin-right: auto;
+  border: 2px solid red;
+  background-color: grey;
+  color: chartreuse;
+  caption-side: top;
+  text-align: center;
+  padding: 20px 0;
+  font-size: 22px;

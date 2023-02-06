@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Обмен валют</title>
+</head>
+<body>
+
+    <div>
+        <table class="currency">
+            <caption>КУРСЫ ВАЛЮТ</caption>
+            <tr>
+                <th></th>
+                <th>Покупка</th>
+                <th>Подажа</th>
+            </tr>
+            <tr>
+                <td>USD</td>
+                <td id="buyUSD"></td>
+                <td id="sellUSD"></td>
+            </tr>
+            <tr>
+                <td>EUR</td>
+                <td id="buyEUR"></td>
+                <td id="sellEUR"></td>
+            </tr>
+            <tr>
+                <td>PLN</td>
+                <td id="buyPLN"></td>
+                <td id="sellPLN"></td>
+            </tr>
+        </table>
+    </div>
+    <div class="converter">
+        <p>Выберите валюту:
+            <select id="itemCurrency">
+                <option id="USD">USD</option>
+                <option id="EUR">EUR</option>
+                <option id="PLN">PLN</option>
+            </select>
+        </p>
+        <div>
+            <p>Введите сумму:
+                <input type="text" id="sum">
+            </p>
+            <p>Выберите дейстивие:
+                <button id="btnBuy">Купить</button>
+                <button id="btnSell">Продать</button>
+            </p>
+            <div type="text" id="result"></div>
+        </div>
+       
+    </div>
+
+<script src="main.js"></script>    
+
+</body>    
+</html>
